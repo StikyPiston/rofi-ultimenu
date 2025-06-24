@@ -8,6 +8,15 @@ To set up the **Ultimenu**, first clone the git repo:
 git clone https://github.com/StikyPiston/rofi-ultimenu
 ```
 
-Then, copy the `config.rasi` file into your `~/.config/rofi/` folder.
+Then, copy the `ultimenu.rasi` file into your `~/.config/rofi/` folder.
 
-Change up the rest of the config, especially the colorscheme becuase I rushed it :P
+Inside your own `config.rasi` file, add the line: `@import "ultimenu"`, and remove the "configuration" section of your own config.
+
+To use **Ultimenu**, just run `rofi -show combi`, or bind that command to a keybind in your Window Manager, for example using SXHKD could look like:
+
+```bash
+super + grave
+	rofi -show combi
+```
+
+---
