@@ -1,0 +1,67 @@
+configuration {
+	display-drun: "A";
+	display-window: "W";
+	display-filebrowser: "F";
+    modi: "combi";
+    combi-modi: "window,drun,filebrowser";
+    display-format: "{icon} {name}";
+    show-icons: true;
+    display-combi: "Launcher";
+}
+
+
+@theme "/dev/null"
+
+* {
+	bg: #1e1e2e66;
+	bg-alt: #eba0ac66;
+
+	fg: #f5c2e7;
+	fg-alt: #cdd6f4;
+
+	background-color: @bg;
+	
+	border: 0;
+	margin: 0;
+	padding: 1;
+	spacing: 0.5;
+}
+
+window {
+	width: 45%;
+}
+
+element {
+	padding: 10;
+	text-color: @fg-alt;
+}
+
+element selected {
+	text-color: @fg;
+}
+
+element-text {
+	background-color: inherit;
+	text-color: inherit;
+	vertical-align: 0.5;
+}
+
+element-icon {
+	size: 20;
+}
+
+entry {
+	background-color: @bg-alt;
+	padding: 12;
+	text-color: @fg;
+}
+
+inputbar {
+	children: [prompt, entry];
+}
+
+listview {
+	background-color: @bg;
+	columns: 2;
+	lines: 7;
+}
