@@ -1,0 +1,10 @@
+configuration {
+	display-drun: "A";
+	display-window: "W";
+	display-filebrowser: "F";
+    modi: "combi";
+    combi-modi: "window,drun,filebrowser";
+    display-format: "{icon} {name}";
+    show-icons: true;
+    display-combi: "Launcher";
+}
