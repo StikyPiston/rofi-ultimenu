@@ -1,3 +1,6 @@
+# ARCHIVED - 22/07/25
+Migrated to [Codeberg](https://codeberg.org/stikypiston/rofi-ultimenu), go check it out!
+
 # rofi-ultimenu
 A Rofi configuration, combining useful modi into a single view
 
